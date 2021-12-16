@@ -9,9 +9,7 @@
                  https://github.com/YuansongFeng/MadMario
 '''
 
-import torch
 from pathlib import Path
-import random, datetime, numpy as np, cv2
 from gym.wrappers import FrameStack, GrayScaleObservation, TransformObservation
 from agents.deep_q_learning_agent import DeepQLearningMario
 
